@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-// Esse é o programa principal
+// Esse ï¿½ o programa principal
 
 int main() {
 	
 	/*printf("Ola Mundo!");
 	
-	setlocale(LC_ALL, "") = Servem para aceitar as acentuações
+	setlocale(LC_ALL, "") = Servem para aceitar as acentuaÃ§Ãµes
 	
 	int valor1 = 10;
 	int valor2 = 20;
@@ -25,7 +25,7 @@ int main() {
  	
  	if (idade > 18){
  		if (idade == 20) {
- 			printf("Você tem 20 anos, parabéns\n");20
+ 			printf("VocÃª tem 20 anos, parabÃªns\n");20
 		 }
  		printf("Maior de idade\n");
  		
@@ -51,7 +51,7 @@ int main() {
 			break;
 		}
 		default : {
-			printf("Dia inválido\n");
+			printf("Dia invï¿½lido\n");
 			break;
 		}
 	}
