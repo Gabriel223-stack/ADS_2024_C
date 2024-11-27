@@ -3,12 +3,11 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "portuguese_brazilian");
 
     int i;
     for (i = 0; i < 10; i ++){
         printf("Este é o incremento para i: %d\n", i);
-        i = i + 1;
     }
     
     return 0;
