@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 /*
 int main(){
@@ -29,6 +30,7 @@ int main(){
     printf("Resultado: %d.\n", resultado);
 }
 */
+/*
 void somaDoisNumeros(){
     int x, y, resultado;
     printf("Digite o primeiro nÃºmero:\n");
@@ -41,4 +43,10 @@ void somaDoisNumeros(){
 
 int main(){
     somaDoisNumeros();
+}
+*/
+
+int main(){
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    printf("Vamos testar a acentuação se está funcionando corretamente!\n");
 }
